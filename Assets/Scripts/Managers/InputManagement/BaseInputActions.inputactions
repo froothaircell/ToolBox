@@ -1,0 +1,1305 @@
+{
+    "name": "BaseInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f2af86d9-c9b3-48ee-b478-add633042600",
+            "actions": [
+                {
+                    "name": "Camera",
+                    "type": "Value",
+                    "id": "5166424d-3ec2-4bcc-9b60-18b2b0a986c9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "c2862418-aa89-4121-b423-a28a86fc778f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "09f6b2ff-3503-4f17-9955-c0a734c86a21",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "f86d13be-7cd3-4b8c-8e04-fe5532cae872",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ContextualAction1",
+                    "type": "Button",
+                    "id": "4bbdf1d6-8964-45ea-b985-aeb5155b12ec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ContextualAction2",
+                    "type": "Button",
+                    "id": "ccb0d77a-7111-4970-bb70-b1bd6d9a9490",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ContextualAction3",
+                    "type": "Button",
+                    "id": "95210766-9617-4a04-aa39-3d7106f41c9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ContextualAction4",
+                    "type": "Button",
+                    "id": "22e26de6-98c9-4abc-aec4-4edd944e710b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ControllerLeftBumper",
+                    "type": "Button",
+                    "id": "f7c65d99-c726-47a9-b9a6-097a653d7652",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ControllerRightBumper",
+                    "type": "Button",
+                    "id": "7f9777fd-8418-4d53-984e-2d721822a90d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ControllerRightTrigger",
+                    "type": "Button",
+                    "id": "1a6d0e99-33c3-4c29-8e23-b37bcd23921a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shift",
+                    "type": "Button",
+                    "id": "0cb9bf71-7199-4ef8-a341-f174c077edc8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SteamOverlay",
+                    "type": "Button",
+                    "id": "8e93f806-b0e9-4fa4-961a-6d45533ca6c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DPadNavigation",
+                    "type": "PassThrough",
+                    "id": "6ae84655-de5c-4c87-bfa9-66bf87af397a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugResetPlayerPrefs",
+                    "type": "Button",
+                    "id": "ee92b246-c24d-41ef-a655-bda0b87eb7ee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugShowLogs",
+                    "type": "Button",
+                    "id": "727029b6-2c5c-44bb-91ff-e96f7756e625",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugScrollLogs",
+                    "type": "Value",
+                    "id": "a5b5b8b0-fd92-411e-941a-821410d018d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "841747ad-77c2-4bc2-9423-bf3b95670587",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=0.05,y=0.05)",
+                    "groups": "KeyboardNMouse",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ba2f0b8-d058-4b0e-8646-7e52dd30b75e",
+                    "path": "<DualSenseGamepadHID>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e3d231f-2fb3-473c-bb60-6a993cbaf920",
+                    "path": "<PS5DualSenseGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a88199e1-1267-4436-80d2-3ade9521df67",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c86effe-4f44-40e4-a506-57a78f3a3da9",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "502c477f-2916-48d2-92a2-1a976ecac1c1",
+                    "path": "<DualSenseGamepadHID>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "050238cb-352d-4caa-8d86-f5a5c0c2a932",
+                    "path": "<PS5DualSenseGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f816ced9-5e59-4740-a561-70ebcd704ea0",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7cf732ca-f60a-4ec3-b976-3f31c953d13f",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ba43399-3fa9-48dc-a485-9b127375c0bc",
+                    "path": "<DualSenseGamepadHID>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e9d1c4d-cde5-4c0b-b40c-d60f3c1c212f",
+                    "path": "<PS5DualSenseGamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df77829b-5f66-4740-be57-d94780108e3a",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7b1840e-13b4-4ec1-b45f-e2788a2b0fa6",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a320e8cf-c7c5-4aee-82c6-ad136fb7bf8d",
+                    "path": "<DualSenseGamepadHID>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "185355de-2e8b-4279-9853-d5ee0b41f57d",
+                    "path": "<PS5DualSenseGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "480a46bc-2ae9-47f1-b80f-9eddb15e1f37",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "542663a0-404f-401e-b77a-63e281b3e938",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "ContextualAction1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24fd19de-7a32-4c25-84f1-054eeefbda7b",
+                    "path": "<DualSenseGamepadHID>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b42f2d1a-d5a9-43e3-a2c2-f3f3a7e59e5b",
+                    "path": "<PS5DualSenseGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93d256b2-9443-4ab7-94bb-c7d98644a22a",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ContextualAction1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa28122b-facc-4623-8680-3ca8dddebed4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "ContextualAction2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02b5d300-7854-488d-848a-0bb8697c37a4",
+                    "path": "<DualSenseGamepadHID>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "412c69f1-80e4-45f8-8b51-ce03c75b87ac",
+                    "path": "<PS5DualSenseGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "54015dd5-29b6-4edb-bcea-2db5040b3615",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ContextualAction2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "737b09fb-ca5b-4b0f-8290-541dc567e222",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "ContextualAction3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a38ef925-b5ca-4832-b3c7-725b8d6f4954",
+                    "path": "<DualSenseGamepadHID>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a512937d-3267-4bed-9c17-f942d8073262",
+                    "path": "<PS5DualSenseGamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d457492c-dc89-4e78-b0f4-4fd949c85288",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ContextualAction3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98ac226f-0afd-4d3d-b1ac-5a04e142256c",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Shift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd4243e9-b7af-4f26-bf4a-5fbd11cbfcf0",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Shift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c674b77-7023-4e6d-bfd7-4aef0228e0a0",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "SteamOverlay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eae29fd1-3a24-4b6b-96c0-943cab16b959",
+                    "path": "<DualSenseGamepadHID>/systemButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "SteamOverlay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e894e55-958a-46cd-9dee-0272b889ed7d",
+                    "path": "<Gamepad>/systemButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "SteamOverlay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5dd9297-7b9e-4d30-b4f7-db6a196e6c1d",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "ContextualAction4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7666a6e3-4454-4ff5-b3f6-a2e77566d65f",
+                    "path": "<DualSenseGamepadHID>/touchpadButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ContextualAction4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2fc402d8-0acf-4310-b212-4556986df4ac",
+                    "path": "<XInputController>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ContextualAction4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69a15a12-a3a0-476a-a428-02940a12c410",
+                    "path": "<DualSenseGamepadHID>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "DPadNavigation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f9d6deb9-9320-407b-a688-7cc29c198c3b",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "DPadNavigation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f8519df-9120-431a-8eb1-ed6517e01b80",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "MultiTap(tapCount=3)",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "DebugResetPlayerPrefs",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9db715a-e860-4baa-b944-bd0c90c4ced7",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "DebugShowLogs",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4022193-8e25-4cc3-8931-94427dea1963",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "DebugShowLogs",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "c914816a-af5e-418e-97b6-c739fba34043",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugScrollLogs",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "546be0a9-0ff4-4b76-bb81-6cb180d133e8",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "DebugScrollLogs",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "e2626168-a310-4b95-9879-9a2ad11b6d37",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "DebugScrollLogs",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fed78487-03df-49c5-b95e-ba6aa77356ae",
+                    "path": "<DualSenseGamepadHID>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ControllerLeftBumper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0ca55dd-4bc1-4481-974e-640a1bf2ac0c",
+                    "path": "<XInputController>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ControllerLeftBumper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c4491fd-3b3c-4ee6-bf04-af3bad1fdd91",
+                    "path": "<DualSenseGamepadHID>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ControllerRightBumper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "776937ed-2c4b-410d-8972-5d6ed5815ba0",
+                    "path": "<XInputController>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ControllerRightBumper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12cffe3d-2a91-4f5a-a3f1-6e017bc421a4",
+                    "path": "<DualSenseGamepadHID>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ControllerRightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bbfd9971-5ee3-4e10-a689-66179f3182d3",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ControllerRightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "83bec141-74fd-43c3-9126-e4094ecb900d",
+            "actions": [
+                {
+                    "name": "Navigate",
+                    "type": "PassThrough",
+                    "id": "ff1f25bb-d3bd-4b15-be21-e34907b4f465",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "8d4dc390-092b-41ee-bbef-752ffffebf23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "48bd11a5-f22a-490f-85d2-189d874af4ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Point",
+                    "type": "PassThrough",
+                    "id": "77d94c8a-5169-4d6d-b514-fd1de090a5f9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "PassThrough",
+                    "id": "a2e429a3-c46b-4bdf-8ca5-e9452ce69d5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ScrollWheel",
+                    "type": "PassThrough",
+                    "id": "6fe513f4-439a-49ee-9b52-cee6502f2264",
+                    "expectedControlType": "Vector2",
+                    "processors": "StickDeadzone",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MiddleClick",
+                    "type": "PassThrough",
+                    "id": "3e95fa30-afd1-480a-abe6-49347c9822e6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightClick",
+                    "type": "PassThrough",
+                    "id": "b89a2ffa-ea92-4ea3-ac48-decd2cb61d24",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackedDevicePosition",
+                    "type": "PassThrough",
+                    "id": "00ec8563-e4ec-40c2-a6c4-5669ee9ceebe",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TrackedDeviceOrientation",
+                    "type": "PassThrough",
+                    "id": "75d36642-0356-477e-81c8-6312e73483bb",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Keyboard",
+                    "id": "344c11bb-91cd-4e98-bb00-ef63f7f06a3c",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "20063d89-5d9a-4f8a-98d7-f5c3f5bc5f00",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "7325045b-3c13-47f9-a753-f97524010137",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "566b1d77-3cb1-4b29-ac8c-71121fce79eb",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "77b8cf97-efa7-4b85-9a7b-fb4e7b11371e",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fc1955e5-3cf0-435e-b4ad-3ce2a9e38c64",
+                    "path": "<DualSenseGamepadHID>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad;PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a62dacd-bc6f-437b-8142-cc74fc0a4b1e",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Joystick [DualSense HID]",
+                    "id": "a272a024-ab10-44c3-9aa5-90fee83bfd5a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "0b108fcc-6edd-4376-ad89-8ac1a6fcda99",
+                    "path": "<DualSenseGamepadHID>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick;PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "bc3b8db8-5891-4c87-8501-570da23a0ecc",
+                    "path": "<DualSenseGamepadHID>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick;PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "60a4d7b5-45be-4f2e-9278-31f1c11a5892",
+                    "path": "<DualSenseGamepadHID>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick;PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f6a5cb6e-c484-45d2-aa6f-8a86e0ac22c7",
+                    "path": "<DualSenseGamepadHID>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick;PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Joystick [XBox Controller]",
+                    "id": "17353654-e51d-4f9a-acfb-6b4427bf5697",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "495c53a0-bd22-4cd7-b450-65aedff2d914",
+                    "path": "<XInputController>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "3577d90f-2aa1-4a31-8f65-b82046858b07",
+                    "path": "<XInputController>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "7ef1c6c2-94cd-4918-a011-a28d5ae030bb",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "709bfa37-fd27-4b61-b569-9f54e7342b0c",
+                    "path": "<XInputController>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "0fc45cce-5e45-48a3-b67f-ef837422f126",
+                    "path": "<PS5DualSenseGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Joystick [DualSense (on PS5)]",
+                    "id": "23177e90-ed00-4af5-b5ef-afa1104dfb4b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "efae0762-11d3-4e74-aea9-f7d6e8d36ef8",
+                    "path": "<PS5DualSenseGamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e38a30b8-edd7-47ed-a66e-7698a7e37e61",
+                    "path": "<PS5DualSenseGamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "c97d6591-66d6-4bbf-9fcd-e5ce324acb23",
+                    "path": "<PS5DualSenseGamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2e4dec3d-ab3a-4ca2-a7f5-f4af73b18785",
+                    "path": "<PS5DualSenseGamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "82196842-f6df-4af2-a8c7-bedce0e6ccf2",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "758e95a2-54d4-43be-aa76-85a8d07915ff",
+                    "path": "<DualSenseGamepadHID>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4620a832-390b-4403-b7b3-734f69a12478",
+                    "path": "<PS5DualSenseGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01ae447f-0079-4f1e-bfc6-40649598d543",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47bd5190-6fce-430a-b95f-057488fdb63b",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardNMouse",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ef7bd2c-34dc-4313-9c81-aab27428f6da",
+                    "path": "<DualSenseGamepadHID>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e869b363-8682-4eea-afd3-83ace3186ed5",
+                    "path": "<PS5DualSenseGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77154428-078c-4244-9012-7b7650af6484",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58b929ce-3aa4-4015-b36c-caebbd378595",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse;KeyboardNMouse",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb6f5314-1420-4bdd-9db5-bcb686375be6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse;KeyboardNMouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2891c6a-dfb4-42cb-a13d-0c1f7821b184",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse;KeyboardNMouse",
+                    "action": "ScrollWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1fb40ce-c558-42d4-99c6-8a77d700b8c2",
+                    "path": "<DualSenseGamepadHID>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ScrollWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61db14f4-3dd6-46d5-bc4f-f1748dc39b34",
+                    "path": "<PS5DualSenseGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS5",
+                    "action": "ScrollWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9c42963-1354-4e1d-bb03-18ba3ac163d0",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBoxSerX",
+                    "action": "ScrollWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ba2c165-c6e0-4f6a-a18b-06b698c8617d",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "MiddleClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b94a3db-0d5d-4ba3-bf12-b819cb84dd63",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "RightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f93b26e-ccdd-4c01-abfb-0db3450c312f",
+                    "path": "<XRController>/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR",
+                    "action": "TrackedDevicePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01fac5b3-fe1c-4a5a-a19b-5d649b10e856",
+                    "path": "<XRController>/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR",
+                    "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardNMouse",
+            "bindingGroup": "KeyboardNMouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "PS5",
+            "bindingGroup": "PS5",
+            "devices": [
+                {
+                    "devicePath": "<DualSenseGamepadHID>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "XBoxSerX",
+            "bindingGroup": "XBoxSerX",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
