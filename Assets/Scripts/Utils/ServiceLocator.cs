@@ -110,7 +110,7 @@ namespace ToolBox.Utils
             _serviceList.Remove(typeof(T));
         }
 
-        public static  T Get<T>() where T : class, IGenericSingleton
+        public static T Get<T>() where T : class, IGenericSingleton
         {
             if (_serviceList == null)
             {

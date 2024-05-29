@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ToolBox.Utils.ResourceLoader
 {
-    [CreateAssetMenu(fileName = "ResourceDB", menuName = "ScriptableObjects/ResourceDB", order = 1)]
+    [CreateAssetMenu(fileName = "ResourceDB", menuName = "Scriptable Objects/ResourceDB", order = 1)]
     public class ResourceDB : ScriptableObject
     {
         private static ResourceDB _instance;
@@ -164,6 +164,7 @@ namespace ToolBox.Utils.ResourceLoader
 
             Resources.UnloadUnusedAssets();
         }
+
         private List<ResourceItem> GetResourceItemList(string extension)
         {
             if (extension.Equals(".prefab"))
